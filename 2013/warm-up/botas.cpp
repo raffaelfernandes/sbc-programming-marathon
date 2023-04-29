@@ -42,7 +42,7 @@ int main(){
                 parDeBotas botas = pares[i];
                 if(tamAtual == botas.tam){
                     if(lAtual == 'E'){
-                        if(botas.esq == false && botas.dir == false){
+                        if(botas.esq == false){
                             botas.esq = true;
                         }else{
                             continue;
